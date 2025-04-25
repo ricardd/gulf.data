@@ -3,7 +3,7 @@
 #' @description Returns whether a survey tow was length-sampled for groundfish.
 #' 
 #' @param x Data object.
-#' 
+#' @param ...	further arguments passed to or from other methods
 #' @examples 
 #' x <- read.scsset(2010:2020)
 #' is.groundfish.sample(x)

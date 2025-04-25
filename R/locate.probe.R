@@ -50,6 +50,13 @@
 #' @seealso \code{\link[gulf.metadata]{project}}, \code{\link[gulf.data]{probe}}
 
 #' @export locate.probe
+#' @export locate.minilog
+#' @export locate.seabird
+#' @export locate.star.oddi
+#' @export locate.scanmar
+#' @export locate.netmind
+#' @export locate.esonar
+#' @export locate.winch
 locate.probe <- function(x, probe, project = "scs", location = "headline", remove, year, tow.id, ...){
    # Parse 'x' argument:
    if (!missing(x)){
@@ -233,13 +240,6 @@ locate.probe <- function(x, probe, project = "scs", location = "headline", remov
    return(files)
 }
 
-#' @export locate.minilog
-#' @export locate.seabird
-#' @export locate.star.oddi
-#' @export locate.scanmar
-#' @export locate.netmind
-#' @export locate.esonar
-#' @export locate.winch
 locate.minilog   <- function(x, ...) UseMethod("locate.minilog")
 locate.seabird   <- function(x, ...) UseMethod("locate.seabird")
 locate.star.oddi <- function(x, ...) UseMethod("locate.star.oddi")

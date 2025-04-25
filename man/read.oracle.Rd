@@ -14,6 +14,8 @@ read.oracle(query, dsn, uid, password, believeNRows = FALSE, ...)
 \item{uid}{User identification.}
 
 \item{password}{User password.}
+
+\item{...}{further arguments passed to or from other methods}
 }
 \description{
 Functions to access Oracle data.

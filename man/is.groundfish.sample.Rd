@@ -8,6 +8,8 @@ is.groundfish.sample(x, ...)
 }
 \arguments{
 \item{x}{Data object.}
+
+\item{...}{further arguments passed to or from other methods}
 }
 \description{
 Returns whether a survey tow was length-sampled for groundfish.

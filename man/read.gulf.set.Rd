@@ -21,6 +21,8 @@ read.gulf.set(
 
 \item{uid}{User identification.}
 
+\item{...}{further arguments passed to or from other methods}
+
 \item{password}{Oracle database password.}
 }
 \description{

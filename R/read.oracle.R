@@ -6,6 +6,7 @@
 #' @param dsn Registered data source.
 #' @param uid User identification.
 #' @param password User password.
+#' @param ...	further arguments passed to or from other methods
 
 #' @export read.oracle
 read.oracle <- function(query, dsn, uid, password, believeNRows = FALSE, ...){

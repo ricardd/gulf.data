@@ -3,11 +3,14 @@
 \name{wingspread}
 \alias{wingspread}
 \alias{wingspread.esonar}
+\alias{wingspread.scsset}
 \title{Trawl Wing Spread}
 \usage{
 wingspread(x, ...)
 
 \method{wingspread}{esonar}(x, ...)
+
+\method{wingspread}{scsset}(x, ...)
 }
 \arguments{
 \item{x}{Data object containing trawl wing spread measurements.}
@@ -21,8 +24,13 @@ Functions to extract trawl wing spread measurements.
 \itemize{
 \item \code{wingspread(esonar)}: Fetch trawl wing spread measures from an \code{esonar} object.
 
+\item \code{wingspread(scsset)}: Calculate the average wingspread for a snow crab survey tow.
+
 }}
 \examples{
 x <- read.esonar(2020)
+wingspread(x)
+
+x <- read.scsset(2024, valid = 1)
 wingspread(x)
 }

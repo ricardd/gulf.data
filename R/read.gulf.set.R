@@ -7,6 +7,8 @@
 #' @param dsn Data source name.
 #' @param uid User identification.
 #' @param password Oracle database password.
+#' @param ...	further arguments passed to or from other methods
+#' 
 #' 
 
 #' @export read.gulf.set

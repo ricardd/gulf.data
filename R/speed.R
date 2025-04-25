@@ -9,7 +9,8 @@
 #' x <- read.scsset(2024, valid = 1)
 #' speed(x)
 
-#' @export wingspread
+#' @export speed
+#' @export speed.scsset
 speed <- function(x, ...) UseMethod("speed")
 
 speed.scsset <- function(x, stats = FALSE, ...){
