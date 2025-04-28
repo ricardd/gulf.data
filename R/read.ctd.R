@@ -66,7 +66,8 @@ read.ctd <- function(year, survey = c("rvs", "scs", "nss"), table = "ctd", dsn =
                         "2020" = "TEL2020211",
                         "2021" = "CJC2021222",
                         "2022" = "CAR2022025",
-                        "2023" = "CAR2023300")
+                        "2023" = "CAR2023300",
+                        "2024" = "CAR2024400")
    
    # Define snow crab survey mission ID names:
    scs.missions <- list("2009" = "GLFSCTSD062009",
@@ -84,7 +85,8 @@ read.ctd <- function(year, survey = c("rvs", "scs", "nss"), table = "ctd", dsn =
                         "2020" = "GLFSCTD2020",
                         "2021" = "GLFSCTD2021",
                         "2022" = "GLFSCTD2022",
-                        "2023" = "GLFSCTD2023")
+                        "2023" = "GLFSCTD2023",
+                        "2024" = "GLFSCTD2024")
    
    # Define Northumberland Strait survey mission ID names:
    nss.missions <- list("2009" = "CADDY2009",
@@ -102,7 +104,8 @@ read.ctd <- function(year, survey = c("rvs", "scs", "nss"), table = "ctd", dsn =
                         "2020" = "PER2020150",
                         "2021" = "PER2021151",
                         "2022" = "PER2022152",
-                        "2023" = "PER2023303")
+                        "2023" = "PER2023303",
+                        "2024" = "PER2024402")
    
    # Return the whole list if year is unspecified:
    missions <- NULL
